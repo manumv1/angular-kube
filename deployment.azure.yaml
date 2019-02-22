@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: manumv/angular-app:#{Build.BuildId}#
+        image: manumv/angular-app:V20
         ports: 
         - containerPort: 80 
 --- 
